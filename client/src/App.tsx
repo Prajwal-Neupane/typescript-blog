@@ -11,7 +11,7 @@ import Register from "./pages/Register";
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
